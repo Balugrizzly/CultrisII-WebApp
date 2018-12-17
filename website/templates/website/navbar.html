@@ -1,0 +1,18 @@
+
+{% load staticfiles %}
+<nav class="main-nav-outer" id="test">
+  <!--main-nav-start-->
+  <div class="container">
+    <ul class="main-nav">
+      <li><a href="{% url 'index' %}#Portfolio">Tutorials</a></li>
+      <li><a href="{% url 'index' %}#client">Players</a></li>
+      <li><a href="{% url 'index' %}#team">About</a></li>
+      <!-- <li><a href="#contact">Contact</a></li> -->
+      <li class="small-logo"><a href="#header"><img src="{% static 'img/small-logo.png' %}" alt=""></a></li>
+      <li><a href="{% url 'download' %}">Download</a></li>
+      <li><a href="{% url 'register' %}">Register</a></li>
+      <li><a href="{% url 'sign_in' %}">Sign In</a></li>
+    </ul>
+    <a class="res-nav_click" href="#"><i class="fa fa-bars"></i></a>
+  </div>
+</nav>

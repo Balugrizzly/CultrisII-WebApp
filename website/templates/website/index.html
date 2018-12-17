@@ -1,0 +1,457 @@
+{% extends "website/header.html" %}
+
+{% block content %}
+{% load staticfiles %}
+<header class="header" id="header">
+  <!--header-start-->
+  <div class="container">
+    <figure class="logo animated fadeInDown delay-07s">
+      <a href="#"><img src="{% static 'img/logo.png' %}" alt=""></a>
+    </figure>
+    <h1 class="animated fadeInDown delay-07s">Welcome Cultris II</h1>
+    <ul class="we-create animated fadeInUp delay-1s">
+      <li>Cultris II is one of the fastest Tetris®-clones ever!</li>
+    </ul>
+    <a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a>
+  </div>
+</header>
+<!--header-end-->
+
+{% include "website/navbar.html" %}
+
+<section class="main-section" id="service">
+  <!--main-section-start-->
+  <div class="container">
+    <h2>Challenges</h2>
+    <h6>We offer various Challenges</h6>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+        <div class="service-list">
+          <div class="service-list-col1">
+            <i class="fa fa-paw"></i>
+          </div>
+          <div class="service-list-col2">
+            <h3>Maserati</h3>
+            <p>Test your speed - clear 40 lines as fast as you can!</p>
+          </div>
+        </div>
+        <div class="service-list">
+          <div class="service-list-col1">
+            <i class="fa fa-gear"></i>
+          </div>
+          <div class="service-list-col2">
+            <h3>Survivor</h3>
+            <p>Test your downstack - survive as long as you can while an ever increasing amount of garbage comes your way!</p>
+          </div>
+        </div>
+        <div class="service-list">
+          <div class="service-list-col1">
+            <i class="fa fa-apple"></i>
+          </div>
+          <div class="service-list-col2">
+            <h3>Cheese</h3>
+            <p>Test your downstack - clear the Cheese to reach the bottom!</p>
+          </div>
+        </div>
+        <div class="service-list">
+          <div class="service-list-col1">
+            <i class="fa fa-medkit"></i>
+          </div>
+          <div class="service-list-col2">
+            <h3>Fortnight</h3>
+            <p>Send as many lines as you can in a minute!</p>
+          </div>
+        </div>
+      </div>
+      <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+        <!-- <img src="{% static 'img/Tetris.jpg' %}" alt=""> -->
+        <img src="https://via.placeholder.com/550x400?text=Simon_Pls_just_fix_the_thing_how_can_this_be_so_hard_?">
+      </figure>
+    </div>
+  </div>
+</section>
+<!--main-section-end-->
+
+
+
+<section class="main-section alabaster">
+  <!--main-section alabaster-start-->
+  <div class="container">
+    <div class="row">
+      <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+        <!-- <img src="{% static 'img/iphone.png' %}" alt=""> -->
+        <img src="https://via.placeholder.com/550x400?text=Really+there+were+like+a+million+people+who+offered+to+help+for+free">
+      </figure>
+      <div class="col-lg-7 col-sm-8 featured-work">
+        <h2>Online Modes</h2>
+        <P class="padding-b">Play against others in various Online Modes.</P>
+        <div class="featured-box">
+          <div class="featured-box-col1 wow fadeInRight delay-02s">
+            <i class="fa fa-magic"></i>
+          </div>
+          <div class="featured-box-col2 wow fadeInRight delay-02s">
+            <h3>FFA</h3>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+          </div>
+        </div>
+        <div class="featured-box">
+          <div class="featured-box-col1 wow fadeInRight delay-04s">
+            <i class="fa fa-gift"></i>
+          </div>
+          <div class="featured-box-col2 wow fadeInRight delay-04s">
+            <h3>Cheese</h3>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+          </div>
+        </div>
+        <div class="featured-box">
+          <div class="featured-box-col1 wow fadeInRight delay-06s">
+            <i class="fa fa-dashboard"></i>
+          </div>
+          <div class="featured-box-col2 wow fadeInRight delay-06s">
+            <h3>Teams</h3>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+          </div>
+        </div>
+        <a class="Learn-More" href="#">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--main-section alabaster-end-->
+
+
+
+<section class="main-section paddind" id="Portfolio">
+  <!--main-section-start-->
+  <div class="container">
+    <h2>Tutorials</h2>
+    <h6>Watch tutorials to improve your game.</h6>
+    <div class="portfolioFilter">
+      <ul class="Portfolio-nav wow fadeIn delay-02s">
+        <li><a href="#" data-filter="*" class="current">All</a></li>
+        <li><a href="#" data-filter=".branding">Combos</a></li>
+        <li><a href="#" data-filter=".webdesign">Blocking</a></li>
+        <li><a href="#" data-filter=".printdesign">Attacking</a></li>
+        <li><a href="#" data-filter=".photography">Garbage</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="portfolioContainer wow fadeInUp delay-04s">
+    <div class="Portfolio-box printdesign">
+      <!-- <a href="{% static 'img/Portfolio-pic1.jpg' %}"><img src="{% static 'img/Portfolio-pic1.jpg' %}" alt=""></a> -->
+      <iframe width="350" height="250"
+        src="https://www.youtube.com/embed/ASO_zypdnsQ">
+      </iframe>
+      <h3>2Wide Combo</h3>
+      <p>Learn how to stack for the 2 wide</p>
+    </div>
+    <div class="Portfolio-box webdesign">
+      <!-- <a href="{% static 'img/macbook-pro.png' %}img/Portfolio-pic2.jpg"><img src="img/Portfolio-pic2.jpg" alt=""></a> -->
+      <iframe width="350" height="250"
+        src="https://www.youtube.com/embed/ASO_zypdnsQ">
+      </iframe>
+      <h3>2Wide Combo</h3>
+      <p>Learn how to stack for the 2 wide</p>
+    </div>
+    <div class=" Portfolio-box branding">
+      <!-- <a href="{% static 'img/macbook-pro.png' %}img/Portfolio-pic3.jpg"><img src="img/Portfolio-pic3.jpg" alt=""></a> -->
+      <iframe width="350" height="250"
+        src="https://www.youtube.com/embed/ASO_zypdnsQ">
+      </iframe>
+      <h3>2Wide Combo</h3>
+      <p>Learn how to stack for the 2 wide</p>
+    </div>
+    <div class=" Portfolio-box photography">
+      <!-- <a href="{% static 'img/macbook-pro.png' %}img/Portfolio-pic4.jpg"><img src="img/Portfolio-pic4.jpg" alt=""></a> -->
+      <iframe width="350" height="250"
+        src="https://www.youtube.com/embed/ASO_zypdnsQ">
+      </iframe>
+      <h3>2Wide Combo</h3>
+      <p>Learn how to stack for the 2 wide</p>
+    </div>
+    <div class=" Portfolio-box branding">
+      <!-- <a href="{% static 'img/macbook-pro.png' %}img/Portfolio-pic5.jpg"><img src="img/Portfolio-pic5.jpg" alt=""></a> -->
+      <iframe width="350" height="250"
+        src="https://www.youtube.com/embed/ASO_zypdnsQ">
+      </iframe>
+      <h3>2Wide Combo</h3>
+      <p>Learn how to stack for the 2 wide</p>
+    </div>
+    <div class=" Portfolio-box photography">
+      <!-- <a href="img/Portfolio-pic6.jpg"><img src="img/Portfolio-pic6.jpg" alt=""></a> -->
+      <iframe width="350" height="250"
+        src="https://www.youtube.com/embed/ASO_zypdnsQ">
+      </iframe>
+      <h3>2Wide Combo</h3>
+      <p>Learn how to stack for the 2 wide</p>
+    </div>
+  </div>
+</section>
+<!--main-section-end-->
+
+<section class="main-section client-part" id="client">
+  <!--main-section client-part-start-->
+  <div class="container">
+    <div class="spacer" style="min-height:250px">
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 style=" color:White;">Players Online </h2>
+        <table class="table table-dark" style="background-color:#32383e; color:White; text-align:left;">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Room</th>
+              <th scope="col">Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>FFA</td>
+              <td>@283</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Mark</td>
+              <td>FFA</td>
+              <td>@283</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Mark</td>
+              <td>FFA</td>
+              <td>@283</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-lg-6">
+        <h2 style=" color:White;">LeaderBoard</h2>
+        <table class="table table-dark" style="background-color:#32383e; color:White; text-align:left;">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Wins</th>
+              <th scope="col">Rounds</th>
+              <th scope="col">Score</th>
+              <th scope="col">Win %</th>
+              <th scope="col">Max CMB</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>20000</td>
+              <td>28333333</td>
+              <td>293</td>
+              <td>29%</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Mark</td>
+              <td>20000</td>
+              <td>28333333</td>
+              <td>293</td>
+              <td>29%</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Mark</td>
+              <td>20000</td>
+              <td>28333333</td>
+              <td>293</td>
+              <td>29%</td>
+              <td>14</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+<!--main-section client-part-end-->
+
+<!--c-logo-part-end-->
+<section class="main-section team" id="team">
+  <!--main-section team-start-->
+  <div class="container">
+    <h2>About</h2>
+    <br>
+    <div class="team-leader-block clearfix">
+      <div class="team-leader-box">
+        <h3 class="wow fadeInDown delay-03s">Who Are We</h3>
+        <p class="wow fadeInDown delay-03s">GEWALTIG entertainment was founded in 2004 as a non-profit organization in Switzerland. We are a small group of developers who enjoy to create freeware games.</p>
+      </div>
+      <div class="team-leader-box">
+        <h3 class="wow fadeInDown delay-06s">Involved People</h3>
+        <p class="wow fadeInDown delay-06s">Simon Felix</p>
+        <p class="wow fadeInDown delay-06s">Rick Postmus (Website)</p>
+        <p class="wow fadeInDown delay-06s">Marco Schweighauser</p>
+        <p class="wow fadeInDown delay-06s">Dominik Baltzer</p>
+        <p class="wow fadeInDown delay-06s">Christoph Dörfel (Website)</p>
+        <p class="wow fadeInDown delay-06s">Jonas Weibel (Cultris I)</p>
+      </div>
+      <div class="team-leader-box">
+        <h3 class="wow fadeInDown delay-09s">Credits</h3>
+        <p class="wow fadeInDown delay-09s">Our games are based on LWJGL, BASS, NativeBass, Allatori and Excelsior JET. All sounds and music used were composed by Tomi Korkalainen, Lukas Nystrand, Stephan Raab (1998), Mark Wallowy, Eivor Lilja, Esa Ruoho, Kai Fischer, Konsta Mikkonen, Christian Antkow and others.</p>
+        <p class="wow fadeInDown delay-09s">All those individuals and companies supported the development of our games by making their products and music available to us at no charge. Please support them!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--main-section team-end-->
+
+<section class="business-talking">
+  <!--business-talking-start-->
+  <div class="container">
+    <h2>Contact Us Now.</h2>
+  </div>
+</section>
+<!--business-talking-end-->
+<div class="container">
+  <section class="main-section contact" id="contact">
+    <div class="row text-center">
+      <div class="col-lg-6 offset-lg-4 wow fadeInLeft">
+        <div class="contact-info-box phone ">
+          <h3><i class="fa fa-phone"></i>Phone:</h3>
+          <span>1-800-BOO-YAHH</span>
+        </div>
+        <div class="contact-info-box email clearfix">
+          <h3><i class="fa fa-pencil"></i>email:</h3>
+          <span>simon@itlags.com</span>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <ul class="social-link">
+          <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+          <li class="gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-logo"><a href="#"><img src="{% static 'img/macbook-pro.png' %}img/footer-logo.png" alt=""></a></div>
+    <span class="copyright">&copy;2011 - 2018 GEWALTIG entertainment. All Rights Reserved</span>
+    <div class="credits">
+      <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
+      -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+  $(document).ready(function(e) {
+
+    $('#test').scrollToFixed();
+    $('.res-nav_click').click(function() {
+      $('.main-nav').slideToggle();
+      return false
+
+    });
+
+    $('.Portfolio-box').magnificPopup({
+      delegate: 'a',
+      type: 'image'
+    });
+
+  });
+</script>
+
+<script>
+  wow = new WOW({
+    animateClass: 'animated',
+    offset: 100
+  });
+  wow.init();
+</script>
+
+
+<script type="text/javascript">
+  $(window).load(function() {
+
+    $('.main-nav li a, .servicelink').bind('click', function(event) {
+      var $anchor = $(this);
+
+      $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top - 102
+      }, 1500, 'easeInOutExpo');
+      /*
+      if you don't want to use the easing effects:
+      $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top
+      }, 1000);
+      */
+      if ($(window).width() < 768) {
+        $('.main-nav').hide();
+      }
+      event.preventDefault();
+    });
+  })
+</script>
+
+<script type="text/javascript">
+  $(window).load(function() {
+
+
+    var $container = $('.portfolioContainer'),
+      $body = $('body'),
+      colW = 375,
+      columns = null;
+
+
+    $container.isotope({
+      // disable window resizing
+      resizable: true,
+      masonry: {
+        columnWidth: colW
+      }
+    });
+
+    $(window).smartresize(function() {
+      // check if columns has changed
+      var currentColumns = Math.floor(($body.width() - 30) / colW);
+      if (currentColumns !== columns) {
+        // set new column count
+        columns = currentColumns;
+        // apply width to container manually, then trigger relayout
+        $container.width(columns * colW)
+          .isotope('reLayout');
+      }
+
+    }).smartresize(); // trigger resize to set container width
+    $('.portfolioFilter a').click(function() {
+      $('.portfolioFilter .current').removeClass('current');
+      $(this).addClass('current');
+
+      var selector = $(this).attr('data-filter');
+      $container.isotope({
+
+        filter: selector,
+      });
+      return false;
+    });
+
+  });
+</script>
+
+{% endblock %}
